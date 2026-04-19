@@ -499,4 +499,4 @@ print(f"\n[INFO] All Grad-CAM visualizations saved in {RESULTS}")
 print(f"[INFO] Results summary:")
 print(f"  - Correct predictions: {sum(results_df['correct'])}/{len(results_df)}")
 print(f"  - Accuracy: {sum(results_df['correct'])/len(results_df)*100:.2f}%")
-print(f"  - HTML report: {html_file}") what model is used here?
+print(f"  - HTML report: {html_file}") 
