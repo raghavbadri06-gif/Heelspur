@@ -1,4 +1,4 @@
- ZHaCTreS-Net-JR: Attention-Enhanced ConvNeXt with PSO Optimization for Heel Spur Classification
+The framework is named ZHaCTreS-Net-JR: 'ZHaCTreS' acknowledges the ConvNeXt inventors (Zhuang Liu, Hanzi Mao, Chao-Yuan Wu, Christoph Feichtenhofer, Trevor Darrell, Saining Xie), 'J', 'R' acknowledges PSO inventors (James Kennedy, Russell Eberhart). 
 
 1. Overview
 
