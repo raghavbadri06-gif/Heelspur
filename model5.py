@@ -791,7 +791,7 @@ def create_publication_gradcam(image_path, model, cam, transform, class_names, m
     return save_path, class_names[pred_class], true_label, confidence, is_correct
 
 # =====================================================================
-# 12) Process all test samples with publication-ready visualization
+# 12) Process all test samples with visualization
 # =====================================================================
 print("\n[INFO] Generating publication-ready Grad-CAM visualizations...")
 viz_results = []
@@ -899,4 +899,4 @@ if not contrib_df.empty:
     print(f"  - Batch Size: {BATCH_SIZE}")
     print(f"  - Total Training Batches: {len(train_loader)}")
 
-print("\n? Processing complete! Publication-ready Grad-CAM visualizations generated.")
+print("\n? Processing complete brother, Grad-CAM visualizations generated.")
