@@ -5,7 +5,13 @@
 > 
 > 
 
-The framework has been named as SCA-Net.
+The framework has been named as SCA-Net. This repository has all the models that are used and compared in this study, namely:
+
+- **Model 1:** EfficientNet-B0 + CBAM
+- **Model 2:** DINOv2 + CBAM  
+- **Model 3:** ConvNeXt-Tiny + CBAM
+- **Model 4:** ConvNeXt-Tiny + CBAM + PSO
+- **Model 5:** SCA-Net (Proposed)
 
 1. Overview
 
