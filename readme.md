@@ -1,8 +1,15 @@
-The framework is named ZHaCTreS-Net-JR: 'ZHaCTreS' acknowledges the ConvNeXt inventors (Zhuang Liu, Hanzi Mao, Chao-Yuan Wu, Christoph Feichtenhofer, Trevor Darrell, Saining Xie), 'J', 'R' acknowledges PSO inventors (James Kennedy, Russell Eberhart). 
+**IMPORTANT NOTICE TO READERS**
+> 
+> This code is directly related to the manuscript currently submitted to **The Visual Computer**.
+> Users are encouraged to **cite the relevant manuscript** when using this code.
+> 
+> 
+
+The framework has been named as SCA-Net.
 
 1. Overview
 
-This repository implements ZHaCTreS-Net-JR for automated heel spur classification from foot X-ray images.
+This repository implements SCA-Net for automated heel spur classification from foot X-ray images.
 
 Classes:
 - heelspur
