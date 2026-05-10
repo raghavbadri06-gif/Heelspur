@@ -1,7 +1,5 @@
-**IMPORTANT NOTICE TO READERS**
-> 
-> This code is directly related to the manuscript currently submitted to **The Visual Computer**.
-> Users are encouraged to **cite the relevant manuscript** when using this code.
+
+
 > 
 > 
 
