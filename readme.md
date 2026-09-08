@@ -1,15 +1,16 @@
 
 
 > 
-> 
+> > **Note:** This work is ***under consideration*** in the ***Biomedical Signal Processing and Control*** journal, Elsevier. 
 
 The framework has been named as SCA-Net. This repository has all the models that are used and compared in this study, namely:
 
-- **Model 1:** EfficientNet-B0 + CBAM
-- **Model 2:** DINOv2 + CBAM  
-- **Model 3:** ConvNeXt-Tiny + CBAM
-- **Model 4:** ConvNeXt-Tiny + CBAM + PSO
-- **Model 5:** SCA-Net (Proposed)
+- **Model 1:** EfficientNet-B0 + CBAM + Global Gate
+- **Model 2:** DINOv2 + CBAM  + Global Gate
+- **Model 3:** ConvNeXt-Tiny + CBAM + Global Gate
+- **Model 4:** ConvNeXt-Tiny + CBAM + Global Gate+ PSO(10 particles, 10 Iterations)
+- **Model 5:** SCA-Net (Proposed) ( ConvNeXt-Tiny + CBAM + Global Gate+ PSO(10 particles, 20 Iterations))
+- **A progressive Ablation was performed by analysing this study on ConvNeXt tiny baselines and ConvNeXt tiny integrated with 
 
 1. Overview
 
@@ -73,9 +74,9 @@ Train the full model with optimized hyperparameters (25 epochs)
 
 Perform test evaluation
 
-Generate Grad-CAM visualizations
+Generate Grad-CAM visualisations
 
-Compute branch contribution analysis
+Compute branch stage-wise gradient-based attribution scores
 
 Extract OCR metadata from images
 
