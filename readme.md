@@ -13,6 +13,8 @@ The framework has been named as SCA-Net. This repository has all the models that
 - A progressive Ablation was performed by analysing this study on ConvNeXt tiny baselines and ConvNeXt tiny integrated with CBAM + Globa Gate
 - ** To further evaluate the achieved performance metrics of SCA-Net the results are compared with Bayesian (with TPE) optimisation **
 
+The data used in this study were acquired from an open-source repository known as Kaggle, https://www.kaggle.com/datasets/osamahtaher/heel-dataset 
+
 1. Overview
 
 This repository implements SCA-Net for automated heel spur classification from foot X-ray images.
