@@ -10,7 +10,8 @@ The framework has been named as SCA-Net. This repository has all the models that
 - **Model 3:** ConvNeXt-Tiny + CBAM + Global Gate
 - **Model 4:** ConvNeXt-Tiny + CBAM + Global Gate+ PSO(10 particles, 10 Iterations)
 - **Model 5:** SCA-Net (Proposed) ( ConvNeXt-Tiny + CBAM + Global Gate+ PSO(10 particles, 20 Iterations))
-- **A progressive Ablation was performed by analysing this study on ConvNeXt tiny baselines and ConvNeXt tiny integrated with 
+- A progressive Ablation was performed by analysing this study on ConvNeXt tiny baselines and ConvNeXt tiny integrated with CBAM + Globa Gate
+- ** To further evaluate the achieved performance metrics of SCA-Net the results are compared with Bayesian (with TPE) optimisation **
 
 1. Overview
 
