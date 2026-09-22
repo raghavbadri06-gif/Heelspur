@@ -1,7 +1,7 @@
 
 
 > 
-> > **Note:** This work is ***under consideration*** in the ***Biomedical Signal Processing and Control*** journal, Elsevier. 
+> > **Note:** This work has been ***accepted for publication*** in the ***Biomedical Signal Processing and Control*** journal, Elsevier. 
 
 The framework has been named as SCA-Net. This repository has all the models that are used and compared in this study, namely:
 
@@ -10,8 +10,8 @@ The framework has been named as SCA-Net. This repository has all the models that
 - **Model 3:** ConvNeXt-Tiny + CBAM + Global Gate
 - **Model 4:** ConvNeXt-Tiny + CBAM + Global Gate+ PSO(10 particles, 10 Iterations)
 - **Model 5:** SCA-Net (Proposed) ( ConvNeXt-Tiny + CBAM + Global Gate+ PSO(10 particles, 20 Iterations))
-- A progressive Ablation was performed by analysing this study on ConvNeXt tiny baselines and ConvNeXt tiny integrated with CBAM + Globa Gate
-- ** To further evaluate the achieved performance metrics of SCA-Net the results are compared with Bayesian (with TPE) optimisation **
+- A progressive Ablation was performed by analysing this study on ConvNeXt tiny baselines and ConvNeXt tiny integrated with CBAM + Global Gate
+- ** To further evaluate the achieved performance metrics of SCA-Net the results are compared with Bayesian (with TPE) optimisation ** 
 
 The data used in this study were acquired from an open-source repository known as Kaggle, https://www.kaggle.com/datasets/osamahtaher/heel-dataset 
 
@@ -41,7 +41,7 @@ Install dependencies:
 
 ```bash
 pip install torch torchvision timm numpy pandas matplotlib seaborn scikit-learn scipy opencv-python pytesseract pyswarm pytorch-grad-cam pillow, these are done
-till the branch contribution extraction process.
+till the branch attribution extraction process.
 For the statistical analysis matlab was used in this study
 #dataset
 Dataset: https://www.kaggle.com/datasets/osamahtaher/heel-dataset
@@ -102,8 +102,8 @@ RESULTS/
 ├── model_final.pth
 ├── gradcam_visualizations/
 │   └── *_gradcam.png
-├── branch_contributions.csv
-├── stage_contributions/
+├── branch_contributions.csv(attribution scores)
+├── stage_contributions/  #attributions
 │   ├── stage_analysis.csv
 │   ├── stage_statistics.csv
 │   └── stage_weights.png
