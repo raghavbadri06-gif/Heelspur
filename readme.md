@@ -1,7 +1,7 @@
 
 
 > 
-> > **Note:** This work has been ***accepted for publication*** in the ***Biomedical Signal Processing and Control*** journal, Elsevier. 
+> > **Note:** This work has been ***Published*** in the ***Biomedical Signal Processing and Control*** journal, Elsevier. 
 
 The framework has been named as SCA-Net. This repository has all the models that are used and compared in this study, namely:
 
@@ -110,6 +110,12 @@ RESULTS/
 ├── overall_metrics.csv
 └── computation_costs.csv
 
+
+## Citation
+
+If you wish to reference this work, cite this article.
+
+B. Raghavan, B. Madhavan, Hariprasath G, S. Venkatesh, Rengarajan Amirtharajan, Hierarchical visual attention and stage-wise attribution interpretation for heel spur classification in radiographic images, Biomedical Signal Processing and Control, Volume 130, 2027, 111574, ISSN 1746-8094 https://doi.org/10.1016/j.bspc.2026.111574) 
 
 
 
