@@ -115,7 +115,8 @@ RESULTS/
 
 If you wish to reference this work, cite this article.
 
-B. Raghavan, B. Madhavan, Hariprasath G, S. Venkatesh, Rengarajan Amirtharajan, Hierarchical visual attention and stage-wise attribution interpretation for heel spur classification in radiographic images, Biomedical Signal Processing and Control, Volume 130, 2027, 111574, ISSN 1746-8094 https://doi.org/10.1016/j.bspc.2026.111574) 
+B. Raghavan, B. Madhavan, Hariprasath G, S. Venkatesh, Rengarajan Amirtharajan, Hierarchical visual attention and stage-wise attribution interpretation for heel spur classification in radiographic images,
+Biomedical Signal Processing and Control, Volume 130, 2027, 111574, ISSN 1746-8094 https://doi.org/10.1016/j.bspc.2026.111574) 
 
 
 
